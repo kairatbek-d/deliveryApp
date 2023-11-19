@@ -21,6 +21,12 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
+      },
+      "package": "com.first123.delivero_app",
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyBXx6LFTmLPMFov58P38Oy_B7_QiEEfUJQ"
+        }
       }
     },
     "web": {
