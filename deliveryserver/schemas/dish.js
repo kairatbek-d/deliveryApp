@@ -17,7 +17,7 @@ export default defineType({
       title: 'Short description',
       validation: (Rule) => Rule.max(200),
     },
-    {name: 'price', type: 'number', title: 'Price of the dish in GBP'},
+    {name: 'price', type: 'number', title: 'Price of the dish in USD'},
     {name: 'image', type: 'image', title: 'Image of the dish'},
   ],
 })

@@ -69,11 +69,6 @@ const RestaurantScreen = ({ route, navigation }) => {
             </View>
             <Text style={styles.description}>{short_description}</Text>
           </View>
-          <TouchableOpacity style={styles.allergyInfo}>
-            <QuestionMarkCircleIcon color="gray" opacity={0.5} size={20} />
-            <Text style={styles.allergyText}>Have a food allergy ?</Text>
-            <ChevronRightIcon color="#00ccbb" />
-          </TouchableOpacity>
         </View>
         <View style={styles.menuContainer}>
           <Text style={styles.menuTitle}>Menu</Text>
@@ -158,21 +153,6 @@ const styles = StyleSheet.create({
     color: '#444',
     marginTop: 10,
     paddingBottom: 16,
-  },
-  allergyInfo: {
-    flexDirection: 'row',
-    alignItems: 'center',
-    padding: 20,
-    borderTopWidth: 1,
-    borderBottomWidth: 1,
-    borderColor: '#e0e0e0',
-  },
-  allergyText: {
-    paddingLeft: 10,
-    flex: 1,
-    fontSize: 16,
-    fontWeight: '600',
-    color: '#555',
   },
   menuContainer: {
     paddingBottom: 150,

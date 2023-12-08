@@ -26,14 +26,13 @@ const DeliveryScreen = ({ navigation }) => {
             dispatch(emptyBasket())}}>
             <XMarkIcon color="#fff" size={30} />
           </TouchableOpacity>
-          <Text style={styles.orderHelpText}>Order Help</Text>
         </View>
 
         <View style={styles.orderInfoContainer}>
           <View style={styles.orderDetails}>
             <View>
               <Text style={styles.estimatedArrivalText}>Estimated Arrival</Text>
-              <Text style={styles.arrivalTime}>10-15 Minutes</Text>
+              <Text style={styles.arrivalTime}>14-18 Minutes</Text>
             </View>
             <Image
               source={require("./assets/order.png")}
@@ -78,7 +77,7 @@ const DeliveryScreen = ({ navigation }) => {
           style={styles.riderImage}
         />
         <View style={styles.riderDetails}>
-          <Text style={styles.riderName}>Alex</Text>
+          <Text style={styles.riderName}>CityU student</Text>
           <Text style={styles.riderRole}>Your Rider</Text>
         </View>
 
@@ -103,11 +102,6 @@ const styles = StyleSheet.create({
     justifyContent: 'space-between',
     alignItems: 'center',
     padding: 20,
-  },
-  orderHelpText: {
-    color: 'white',
-    fontSize: 18,
-    fontWeight: '300',
   },
   orderInfoContainer: {
     backgroundColor: 'white',

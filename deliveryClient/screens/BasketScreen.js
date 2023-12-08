@@ -45,7 +45,7 @@ const BasketScreen = ({ navigation }) => {
 
         <View style={styles.deliveryContainer}>
           <Ionicons name="fast-food" color="#2c9935" size={30} />
-          <Text style={styles.deliveryText}> Deliver in 10-15 mins</Text>
+          <Text style={styles.deliveryText}> Deliver in 14-18 mins</Text>
         </View>
 
         <ScrollView style={styles.scrollView}>
